@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb04c3577a5a43e3bd7d6a2152b3d8a1" Name="Diagram1">
+        <EntityTypeShape EntityType="SocialNetworkDbModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetRole" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetToken" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetUserManagement" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetUser" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.AspNetUserSecret" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.Comment" Width="1.5" PointX="7.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.Post" Width="1.5" PointX="4.125" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialNetworkDbModel.UserDetail" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_dbo_AspNetUserManagement_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_AspNetUsers_UserDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_Comments_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_Posts_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FK_Comments_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.FriendsList" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialNetworkDbModel.UsersPosts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

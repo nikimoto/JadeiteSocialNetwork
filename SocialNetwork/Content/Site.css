@@ -1,0 +1,96 @@
+﻿body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+p {
+    word-break: break-all;
+    word-wrap: hyphenate;
+}
+
+/* styles for removing the background from form */
+.no-color {
+  background-color: white;
+  border-style:none;
+}
+
+.comment-footer {
+    color: lightgray;
+    font-size: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.link-button {
+    background: #E0E0E0;
+    padding: 3px 8px 3px 8px;
+    border-radius: 2px;
+    margin: 0px 2px 0px 2px;
+}
+
+.link-button:hover {
+    background: #AAA;
+    color: #EEF;
+    text-decoration: none;
+}
+
+.panel {
+    display: block;
+    padding: 5px 15px 10px 15px;
+    margin-top: 20px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #BBB;
+    border-radius: 6px;
+}
+
+    .panel h2 {
+        background: #EEE;
+        font-size: 20px;
+        padding-left: 10px;
+        border-radius: 4px;
+    }
+
+    .panel label span {
+        display: inline-block;
+        width: 85px;
+    }
+
+    .panel label * {
+        margin-top: 8px;
+        width: 300px;
+    }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    ul li {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+.post-text {
+    font-size: 12pt;
+    font-style: italic;
+    display: block;
+    text-align: left;
+}
+
+.MainContent {
+    margin: 0% 15%;
+}
+
+.align-left-margin {
+    margin: 0px 150px;
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: none;
+}
